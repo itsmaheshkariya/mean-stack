@@ -1,0 +1,45 @@
+
+# compiled output
+/src/dist
+/src/tmp
+/src/out-tsc
+# Only exists if Bazel was run
+/src/bazel-out
+
+# dependencies
+/node_modules
+/src/node_modules
+# profiling files
+/src/chrome-profiler-events*.json
+/src/speed-measure-plugin*.json
+
+# IDEs and editors
+/src/.idea
+/src/.project
+/src/.classpath
+/src/.c9/
+/src/*.launch
+/src/.settings/
+/src/*.sublime-workspace
+
+# IDE - VSCode
+/src/.vscode/*
+/src/!.vscode/settings.json
+/src/!.vscode/tasks.json
+/src/!.vscode/launch.json
+/src/!.vscode/extensions.json
+/src/.history/*
+
+# misc
+/src/.sass-cache
+/src/connect.lock
+/src/coverage
+/src/libpeerconnection.log
+/src/npm-debug.log
+/src/yarn-error.log
+/src/testem.log
+/src/typings
+
+# System Files
+/src/.DS_Store
+/src/Thumbs.db
